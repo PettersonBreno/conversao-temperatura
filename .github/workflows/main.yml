@@ -55,5 +55,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            seunomedeusuario/devops-converteTemperatura:${{github.run_number}}
-            seunomedeusuario/devops-converteTemperatura:latest
+            pettersonbreno/conversao-tempetura:v1
+            pettersonbreno/conversao-tempetura:latest
