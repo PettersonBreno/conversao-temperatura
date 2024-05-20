@@ -54,5 +54,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            pettersonbreno/aula-conversao-tempetura:v1
+            pettersonbreno/aula-conversao-tempetura:${{github.rub_number}}
             pettersonbreno/aula-conversao-tempetura:latest
